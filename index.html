@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star-wars-battlefront-2</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <main>
+        <header id="cabecalho" class="d-flex justify-content-between container-fluid fixed-top">
+            <div id="logo">
+                <img id="img-logo" src="images/battlefront-2-mono-logo.png" class="img-fluid" alt="Logo">
+            </div>
+    
+            <nav id="navegacao" class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="nav nav-pills">
+                        <li id="sobre" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sobre</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Visão geral</a>
+                                <a class="dropdown-item" href="#">Campanha</a>
+                                <a class="dropdown-item" href="#">Plano de desenvolvimento</a>
+                            </div>
+                        </li>
+                        <li id="herois" class="nav-item">
+                            <a class="nav-link text-white" href="#">Heróis</a>
+                        </li>
+                        <li id="multiplayer" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Multiplayer</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Multiplayer</a>
+                                <a class="dropdown-item" href="#">Progressão</a>
+                                <a class="dropdown-item" href="#">Heróis</a>
+                                <a class="dropdown-item" href="#">Mapas e locais</a>
+                                <a class="dropdown-item" href="#">Modos de jogo</a>
+                                <a class="dropdown-item" href="#">Reforços</a>
+                                <a class="dropdown-item" href="#">Classes</a>
+                                <a class="dropdown-item" href="#">Veículos</a>
+                            </div>
+                        </li>
+                        <li id="noticias" class="nav-item">
+                            <a class="nav-link text-white" href="#">Notícias</a>
+                        </li>
+                        <li id="foruns" class="nav-item">
+                            <a class="nav-link text-white" href="#">Fóruns</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="compre">
+                <button id="btn-compre" type="button" class="btn btn-warning">COMPRE AGORA</button>
+            </div>   
+        </header>
+    
+        <Section id="section-scarif">
+            <div>
+                <img src="./images/scarif.jpg" class="img-background" alt="img-scarif">
+            </div>
+            <div id="scarif">
+                <h4>STAR WARS™ BATTLEFRONT™ II</h4>
+                <h1>Atualização da Batalha de Scarif</h1>
+                <p>Uma carta do nosso diretor criativo sobre a atualização da Batalha de Scarif, a incrível jornada do jogo por 25 atualizações de conteúdo grátis, e o que está por vir</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <button id="btn-leia-agora" class="btn btn-warning">Leia agora</button>
+                    <button id="btn-atualizacao" class="btn btn-warning">Assista à atualização</button>
+                </div>
+                
+            </div>
+        </Section>
+    
+        <section id="ultimas-noticias" class="p-3 bg-black text-white">
+            <h1 class="d-flex justify-content-center">Últimas notícias</h1>
+    
+            <div id="grid" class="container text-center">
+                <div class="row">
+                  <div id="col1" class="col col-12 col-md-6 col-lg-4">
+                    <div id="scarif-small" class="card border-0" style="width: 100%; ">
+                        <img src="./images/scarif-small.jpg" class="card-img-top" alt="scarif-small">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">
+                                <span class="text-warning">STAR WARS™ BATTLEFRONT™ II</span>
+                                <span>27/04/2020</span>
+                            </h5>
+    
+                            <h3 class="card-subtitle mb-2 text-white">Após mais de 2 anos de conteúdo grátis, a visão do Battlefront™ II agora es…</h3>
+    
+                            <p class="card-text">
+                                O Diretor Criativo Dennis Brännvall fala sobre a incrível jornada do jogo em 25 atualizações de conteúdo gratuitas, a Batalha de Scarif e o futuro.
+                            </p>
+                        </div>
+                    </div>
+                  </div><!--col1-->
+                  <div id="col2" class="col col-12 col-md-6 col-lg-4">
+                    <div id="scarif-small" class="card border-0" style="width: 100%; ">
+                        <img src="./images/ray-kylo.jpg" class="card-img-top" alt="scarif-small">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">
+                                <span class="text-warning">STAR WARS™ BATTLEFRONT™ II</span>
+                                <span>27/04/2020</span>
+                            </h5>
+    
+                            <h3 class="card-subtitle mb-2 text-white">Criando os sons de Star Wars™ Battlefront™ II</h3>
+    
+                            <p class="card-text">
+                                Como a equipe de áudio da DICE criou os sons de Ascensão Skywalker e Felucia no Star Wars Battlefront II.
+                            </p>
+                        </div>
+                    </div>
+                  </div><!--col2-->
+                  <div id="col3" class="col col-12 col-md-6 col-lg-4">
+                    <div id="scarif-small" class="card border-0" style="width: 100%; ">
+                        <img src="./images/celebration-edition.jpg" class="card-img-top" alt="scarif-small">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">
+                                <span class="text-warning">STAR WARS™ BATTLEFRONT™ II</span>
+                                <span>04/12/2019</span>
+                            </h5>
+    
+                            <h3 class="card-subtitle mb-2 text-white">O Star Wars™ Battlefront™ II: Celebration Edition será lançado em 5 de deze…</h3>
+                            
+                            <p class="card-text">
+                                Saiba tudo sobre o novo Star Wars Battlefront II: Celebration Edition e o conteúdo emocionante de Star Wars™: A Ascensão Skywalker™!
+                            </p>
+                        </div>
+                    </div>
+                  </div><!--col3-->
+                </div>
+            </div>
+            
+        </section>
+    
+        <section class="spacer"></section>
+    
+        <section id="personagens">
+            <div></div>
+                <img id="img-luke" src="./images/luke.jpg" class="img-background img-fluid" alt="img-luke">
+            </div>
+            <div class="conteudo">
+                <h4>STAR WARS™ BATTLEFRONT™ II</h4>
+                <h1>PERSONAGENS DE TODAS AS ERAS</h1>
+                <p>Jogue como (ou contra) os vilões mais temidos e os heróis mais amados de Star Wars de todas as três eras, incluindo Kylo Ren, Rey, Darth Maul, Yoda e muitos outros. Habilidades únicas e aprimoráveis garantem que os personagens clássicos levem seus poderes e personalidades ao campo de batalha.</p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-warning">Veja os Heróis</button>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section class="spacer"></section>
+    
+        <section id="locais-lendarios">
+            <div>
+                <img src="./images/starkiller-base.jpg" class="img-background" alt="img-starkiller-base">
+            </div>
+            <div class="conteudo">
+                <h4>LOCAIS LENDÁRIOS</h4>
+                <h1>Uma galáxia em guerra</h1>
+                <p>Lute com os amigos e heróis em diversos planetas de todas as três eras cinematográficas de Star Wars. Lute nas plataformas chuvosas de Kamino, enfrente a Primeira Ordem na tundra da Base Starkiller e expulse os invasores Separatistas do palácio de Theed, em Naboo.</p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-warning">Explorar mapas</button>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section class="spacer"></section>
+    
+        <section id="modos-de-jogo">
+            <div>
+                <img src="./images/clones.jpg" class="img-background" alt="img-clones">
+            </div>
+            <div class="conteudo">
+                <h4>Maneiras de se Jogar</h4>
+                <h1>Modos de Jogo</h1>
+                <p>Histórias empolgantes para um jogador, combates multiplayer envolventes e batalhas espaciais em estágios múltiplos esperam por você no Star Wars Battlefront II.</p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-warning">Explorar modos de jogo</button>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section class="spacer"></section>
+        
+    
+        <section id="veiculos">
+            <div>
+                <img src="./images/x-wing.jpg" class="img-background" alt="img-x-wing">
+            </div>
+            <div class="conteudo">
+                <h4>NA TERRA, NO CÉU E NO ESPAÇO</h4>
+                <h1>Veículos</h1>
+                <p>Pilote veículos de todas as três eras de Star Wars. Controle AATs enormes, caças estelares ágeis, andadores mortíferos e as naves dos seus heróis preferidos.</p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-warning">Explore veículos</button>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section id="slides">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/scarif.jpg" class="d-block w-100" alt="slide-scarif">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/ray-kylo.jpg" class="d-block w-100" alt="slide-ray-kylo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/celebration-edition.jpg" class="d-block w-100" alt="slide-celebration-edition">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

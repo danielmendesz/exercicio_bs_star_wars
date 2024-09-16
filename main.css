@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+main{
+    background-color: black;
+}
+
+header {
+    padding: 10px;
+    padding-left: 32px;
+    background-color: black;
+}
+
+#logo {
+    max-width: 188.65px;
+}
+
+.spacer {
+    padding: 50px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+/*Sections*/
+#section-scarif, #personagens, #locais-lendarios, #modos-de-jogo, #veiculos {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    z-index: 1;
+}
+
+#scarif {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.img-background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#section-scarif h1, #section-scarif h4, #section-scarif p {
+    padding: 10px;
+}
+
+#ultimas-noticias h1 {
+    font-size: 44px;
+    margin-top: 100px;
+}
+
+.card-body {
+    background-color: rgb(44, 44, 44);
+}
+
+#grid .row {
+    display: flex;
+}
+
+#grid .col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#grid .card {
+    flex: 1;
+}
+
+.conteudo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    width: 600px;
+}
+
+/*Celular*/
+@media screen and (max-width: 767px) {
+
+    .spacer {
+        padding: 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    #logo {
+        padding-top: 10px;
+    }
+
+    #img-logo {
+        width: 100px;
+        height: 32px;
+    }
+
+    #compre {
+        padding-top: 10px;
+    }
+
+    #btn-compre {
+        height: 36px;
+    }
+
+    #section-scarif {
+        padding-top: 75px;
+        position: relative;
+        display: block;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    #scarif p, #scarif h4 {
+        font-size: 18px;
+    }
+
+    #ultimas-noticias h1 {
+        font-size: 36px;
+        margin-top: 0px;
+    }
+
+    .conteudo {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #fff;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .conteudo h4, .conteudo p {
+        font-size: 18px;
+    }
+
+    #personagens, #locais-lendarios, #modos-de-jogo, #veiculos {
+        position: relative;
+        display: block;
+        justify-content: center; 
+        align-items: center;
+        
+    }
+
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/*PC*/
+@media screen and (min-width: 1024px) {
+
+}
